@@ -6,6 +6,8 @@
 .contact-us__container {
   display: flex;
   justify-content: space-around;
+  max-width: 920px;
+  margin: 0 auto;
 }
 .contact-us__tittle {
   margin: 0;

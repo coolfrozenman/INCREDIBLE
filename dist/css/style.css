@@ -748,6 +748,8 @@ main {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  max-width: 920px;
+  margin: 0 auto;
 }
 
 .contact-us__tittle {
@@ -953,15 +955,15 @@ main {
   }
 }
 
-@media screen and (max-width: 768px) {
-  .header {
-    display: none;
+@media screen and (max-width: 769px) {
+  main {
+    padding: 0;
   }
 }
 
-@media screen and (max-width: 767px) {
-  main {
-    padding: 0;
+@media screen and (max-width: 768px) {
+  .header {
+    display: none;
   }
 }
 
