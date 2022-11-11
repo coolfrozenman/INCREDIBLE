@@ -1,0 +1,66 @@
+.form {
+  background-color: #fafafa;
+  border-top: 1px #e1e1e1 solid;
+  border-bottom: 1px #e1e1e1 solid;
+  padding: 58px 15px 80px 15px;
+  margin-bottom: 24px;
+}
+.form__title {
+  text-transform: uppercase;
+  text-align: center;
+  font-family: var(--font-title);
+  color: var(--black-color);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 31px;
+  line-height: 1.16;
+  margin: 0 0 22px 0;
+}
+.form__text {
+  text-align: center;
+  font-family: var(--font-text);
+  color: rgba(115, 115, 115, 0.74);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 1.57;
+  margin: 0 0 62px 0;
+}
+.CallBackForm {
+  max-width: 458px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 20px;
+  margin: 0 auto;
+}
+.CallBackForm__input,
+.CallBackForm__button {
+  background: var(--withe-color);
+  box-shadow: 0px 0px 0px rgba(64, 64, 71, 0.3);
+  border-radius: 3px;
+  width: 47.7%;
+  font-family: var(--font-title);
+  color: var(--gray-color);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  text-align: left;
+  border: none;
+  outline: none;
+  padding: 12px 30px;
+}
+.CallBackForm textarea {
+  resize: none;
+  width: 100%;
+}
+.CallBackForm__button {
+  width: 100%;
+  background: var(--red-color);
+  color: var(--black-color);
+  text-align: center;
+  cursor: pointer;
+}

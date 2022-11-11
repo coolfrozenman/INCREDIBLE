@@ -1,0 +1,33 @@
+@import "./vendors/normalize";
+
+@import "./utils/media.scss";
+
+@import "./base/module";
+
+@import "./base/vars.scss";
+.root {
+  width: 100%;
+}
+main {
+  padding-left: 330px;
+  width: 100%;
+}
+@media screen and (max-width: 767px) {
+  main {
+    padding: 0;
+  }
+}
+//ASIDE
+@import "./components/header.scss";
+//TITLELIST
+@import "./layout/titlelist.scss";
+//feature
+@import "./layout/feature.scss";
+//CONTACT-US
+@import "./components/contact-us.scss";
+//GALARY
+@import "./layout/galary.scss";
+//FORM
+@import "./components/form.scss";
+//COPYRIGHT
+@import "./components/copyright.scss";
